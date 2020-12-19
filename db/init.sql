@@ -1,7 +1,7 @@
-CREATE DATABASE deniroData;
-use deniroData;
+CREATE DATABASE rottenData;
+use rottenData;
 
-CREATE TABLE IF NOT EXISTS deniro (
+CREATE TABLE IF NOT EXISTS rotten (
     `id` INT NOT NULL AUTO_INCREMENT,
     `Year` INT,
     `Score` INT,

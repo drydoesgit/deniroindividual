@@ -14,7 +14,7 @@ class MyDb:
             'password': 'root',
             'host': 'db',
             'port': '3306',
-            'database': 'deniroData'
+            'database': 'rottenData'
         }
         self.connection = mysql.connector.connect(**config)
 
